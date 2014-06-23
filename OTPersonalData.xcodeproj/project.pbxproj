@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BE0E4219588E0E00B4E019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE0E4119588E0E00B4E019 /* Foundation.framework */; };
+		18BE0E4419588E0E00B4E019 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE0E4319588E0E00B4E019 /* CoreGraphics.framework */; };
+		18BE0E4619588E0E00B4E019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE0E4519588E0E00B4E019 /* UIKit.framework */; };
+		18BE0E4C19588E0E00B4E019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0E4A19588E0E00B4E019 /* InfoPlist.strings */; };
+		18BE0E4E19588E0E00B4E019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0E4D19588E0E00B4E019 /* main.m */; };
+		18BE0E5219588E0E00B4E019 /* OTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0E5119588E0E00B4E019 /* OTAppDelegate.m */; };
+		18BE0E5419588E0E00B4E019 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0E5319588E0E00B4E019 /* Images.xcassets */; };
+		18BE0E5B19588E0E00B4E019 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE0E5A19588E0E00B4E019 /* XCTest.framework */; };
+		18BE0E5C19588E0E00B4E019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE0E4119588E0E00B4E019 /* Foundation.framework */; };
+		18BE0E5D19588E0E00B4E019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE0E4519588E0E00B4E019 /* UIKit.framework */; };
+		18BE0E6519588E0E00B4E019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0E6319588E0E00B4E019 /* InfoPlist.strings */; };
+		18BE0E6719588E0E00B4E019 /* OTPersonalDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0E6619588E0E00B4E019 /* OTPersonalDataTests.m */; };
+		18BE0EFE19588F2F00B4E019 /* OTPersonalSavedDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EC619588F2F00B4E019 /* OTPersonalSavedDataView.m */; };
+		18BE0EFF19588F2F00B4E019 /* OTPersonalSavedDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EC819588F2F00B4E019 /* OTPersonalSavedDataViewController.m */; };
+		18BE0F0019588F2F00B4E019 /* OTPersonalSavedDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0EC919588F2F00B4E019 /* OTPersonalSavedDataViewController.xib */; };
+		18BE0F0119588F2F00B4E019 /* OTFieldConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0ECC19588F2F00B4E019 /* OTFieldConfig.m */; };
+		18BE0F0219588F2F00B4E019 /* OTPersonalDataConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0ECE19588F2F00B4E019 /* OTPersonalDataConfig.m */; };
+		18BE0F0319588F2F00B4E019 /* OTBaseModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0ED119588F2F00B4E019 /* OTBaseModifier.m */; };
+		18BE0F0419588F2F00B4E019 /* OTCardModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0ED319588F2F00B4E019 /* OTCardModifier.m */; };
+		18BE0F0619588F2F00B4E019 /* OTLatinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0ED719588F2F00B4E019 /* OTLatinFormatter.m */; };
+		18BE0F0819588F2F00B4E019 /* OTPickerModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EDC19588F2F00B4E019 /* OTPickerModifier.m */; };
+		18BE0F0919588F2F00B4E019 /* OTSwitchModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EDE19588F2F00B4E019 /* OTSwitchModifier.m */; };
+		18BE0F0A19588F2F00B4E019 /* OTTelephoneModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EE019588F2F00B4E019 /* OTTelephoneModifier.m */; };
+		18BE0F0B19588F2F00B4E019 /* OTUpperCaseModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EE219588F2F00B4E019 /* OTUpperCaseModifier.m */; };
+		18BE0F0E19588F2F00B4E019 /* OTAdultDateValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EE819588F2F00B4E019 /* OTAdultDateValidator.m */; };
+		18BE0F0F19588F2F00B4E019 /* OTCVVModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EEA19588F2F00B4E019 /* OTCVVModifier.m */; };
+		18BE0F1019588F2F00B4E019 /* OTDateModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EEC19588F2F00B4E019 /* OTDateModifier.m */; };
+		18BE0F1119588F2F00B4E019 /* OTEmailModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EEE19588F2F00B4E019 /* OTEmailModifier.m */; };
+		18BE0F1219588F2F00B4E019 /* OTEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EF019588F2F00B4E019 /* OTEmailValidator.m */; };
+		18BE0F1319588F2F00B4E019 /* OTEmptyValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EF219588F2F00B4E019 /* OTEmptyValidator.m */; };
+		18BE0F1419588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EF619588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.m */; };
+		18BE0F1519588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0EF719588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.xib */; };
+		18BE0F1619588F2F00B4E019 /* OTPersonalDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EF919588F2F00B4E019 /* OTPersonalDataTableViewCell.m */; };
+		18BE0F1719588F2F00B4E019 /* OTPersonalDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0EFA19588F2F00B4E019 /* OTPersonalDataTableViewCell.xib */; };
+		18BE0F1819588F2F00B4E019 /* OTPersonalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0EFC19588F2F00B4E019 /* OTPersonalDataViewController.m */; };
+		18BE0F1919588F2F00B4E019 /* OTPersonalDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0EFD19588F2F00B4E019 /* OTPersonalDataViewController.xib */; };
+		18BE0F1D1958903C00B4E019 /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0F1C1958903C00B4E019 /* NSDate+convenience.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18BE0F20195892F900B4E019 /* OTAPersonalDataConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0F1F195892F900B4E019 /* OTAPersonalDataConfigFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BE0E5E19588E0E00B4E019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BE0E3619588E0E00B4E019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BE0E3D19588E0E00B4E019;
+			remoteInfo = OTPersonalData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BE0E3E19588E0E00B4E019 /* OTPersonalData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPersonalData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BE0E4119588E0E00B4E019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18BE0E4319588E0E00B4E019 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18BE0E4519588E0E00B4E019 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18BE0E4919588E0E00B4E019 /* OTPersonalData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OTPersonalData-Info.plist"; sourceTree = "<group>"; };
+		18BE0E4B19588E0E00B4E019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BE0E4D19588E0E00B4E019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BE0E4F19588E0E00B4E019 /* OTPersonalData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OTPersonalData-Prefix.pch"; sourceTree = "<group>"; };
+		18BE0E5019588E0E00B4E019 /* OTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAppDelegate.h; sourceTree = "<group>"; };
+		18BE0E5119588E0E00B4E019 /* OTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTAppDelegate.m; sourceTree = "<group>"; };
+		18BE0E5319588E0E00B4E019 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18BE0E5919588E0E00B4E019 /* OTPersonalDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPersonalDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BE0E5A19588E0E00B4E019 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18BE0E6219588E0E00B4E019 /* OTPersonalDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OTPersonalDataTests-Info.plist"; sourceTree = "<group>"; };
+		18BE0E6419588E0E00B4E019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BE0E6619588E0E00B4E019 /* OTPersonalDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTPersonalDataTests.m; sourceTree = "<group>"; };
+		18BE0EC519588F2F00B4E019 /* OTPersonalSavedDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPersonalSavedDataView.h; sourceTree = "<group>"; };
+		18BE0EC619588F2F00B4E019 /* OTPersonalSavedDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPersonalSavedDataView.m; sourceTree = "<group>"; };
+		18BE0EC719588F2F00B4E019 /* OTPersonalSavedDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPersonalSavedDataViewController.h; sourceTree = "<group>"; };
+		18BE0EC819588F2F00B4E019 /* OTPersonalSavedDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPersonalSavedDataViewController.m; sourceTree = "<group>"; };
+		18BE0EC919588F2F00B4E019 /* OTPersonalSavedDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTPersonalSavedDataViewController.xib; sourceTree = "<group>"; };
+		18BE0ECB19588F2F00B4E019 /* OTFieldConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTFieldConfig.h; sourceTree = "<group>"; };
+		18BE0ECC19588F2F00B4E019 /* OTFieldConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTFieldConfig.m; sourceTree = "<group>"; };
+		18BE0ECD19588F2F00B4E019 /* OTPersonalDataConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPersonalDataConfig.h; sourceTree = "<group>"; };
+		18BE0ECE19588F2F00B4E019 /* OTPersonalDataConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPersonalDataConfig.m; sourceTree = "<group>"; };
+		18BE0ED019588F2F00B4E019 /* OTBaseModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTBaseModifier.h; sourceTree = "<group>"; };
+		18BE0ED119588F2F00B4E019 /* OTBaseModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTBaseModifier.m; sourceTree = "<group>"; };
+		18BE0ED219588F2F00B4E019 /* OTCardModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTCardModifier.h; sourceTree = "<group>"; };
+		18BE0ED319588F2F00B4E019 /* OTCardModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTCardModifier.m; sourceTree = "<group>"; };
+		18BE0ED619588F2F00B4E019 /* OTLatinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTLatinFormatter.h; sourceTree = "<group>"; };
+		18BE0ED719588F2F00B4E019 /* OTLatinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTLatinFormatter.m; sourceTree = "<group>"; };
+		18BE0ED819588F2F00B4E019 /* OTModifierProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTModifierProtocol.h; sourceTree = "<group>"; };
+		18BE0EDB19588F2F00B4E019 /* OTPickerModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPickerModifier.h; sourceTree = "<group>"; };
+		18BE0EDC19588F2F00B4E019 /* OTPickerModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPickerModifier.m; sourceTree = "<group>"; };
+		18BE0EDD19588F2F00B4E019 /* OTSwitchModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSwitchModifier.h; sourceTree = "<group>"; };
+		18BE0EDE19588F2F00B4E019 /* OTSwitchModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSwitchModifier.m; sourceTree = "<group>"; };
+		18BE0EDF19588F2F00B4E019 /* OTTelephoneModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTelephoneModifier.h; sourceTree = "<group>"; };
+		18BE0EE019588F2F00B4E019 /* OTTelephoneModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTelephoneModifier.m; sourceTree = "<group>"; };
+		18BE0EE119588F2F00B4E019 /* OTUpperCaseModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTUpperCaseModifier.h; sourceTree = "<group>"; };
+		18BE0EE219588F2F00B4E019 /* OTUpperCaseModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTUpperCaseModifier.m; sourceTree = "<group>"; };
+		18BE0EE719588F2F00B4E019 /* OTAdultDateValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAdultDateValidator.h; sourceTree = "<group>"; };
+		18BE0EE819588F2F00B4E019 /* OTAdultDateValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAdultDateValidator.m; sourceTree = "<group>"; };
+		18BE0EE919588F2F00B4E019 /* OTCVVModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTCVVModifier.h; sourceTree = "<group>"; };
+		18BE0EEA19588F2F00B4E019 /* OTCVVModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTCVVModifier.m; sourceTree = "<group>"; };
+		18BE0EEB19588F2F00B4E019 /* OTDateModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDateModifier.h; sourceTree = "<group>"; };
+		18BE0EEC19588F2F00B4E019 /* OTDateModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDateModifier.m; sourceTree = "<group>"; };
+		18BE0EED19588F2F00B4E019 /* OTEmailModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTEmailModifier.h; sourceTree = "<group>"; };
+		18BE0EEE19588F2F00B4E019 /* OTEmailModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTEmailModifier.m; sourceTree = "<group>"; };
+		18BE0EEF19588F2F00B4E019 /* OTEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTEmailValidator.h; sourceTree = "<group>"; };
+		18BE0EF019588F2F00B4E019 /* OTEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTEmailValidator.m; sourceTree = "<group>"; };
+		18BE0EF119588F2F00B4E019 /* OTEmptyValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTEmptyValidator.h; sourceTree = "<group>"; };
+		18BE0EF219588F2F00B4E019 /* OTEmptyValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTEmptyValidator.m; sourceTree = "<group>"; };
+		18BE0EF319588F2F00B4E019 /* OTValidatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTValidatorProtocol.h; sourceTree = "<group>"; };
+		18BE0EF519588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPersonalDataTableFinalFooterView.h; sourceTree = "<group>"; };
+		18BE0EF619588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPersonalDataTableFinalFooterView.m; sourceTree = "<group>"; };
+		18BE0EF719588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTPersonalDataTableFinalFooterView.xib; sourceTree = "<group>"; };
+		18BE0EF819588F2F00B4E019 /* OTPersonalDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPersonalDataTableViewCell.h; sourceTree = "<group>"; };
+		18BE0EF919588F2F00B4E019 /* OTPersonalDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPersonalDataTableViewCell.m; sourceTree = "<group>"; };
+		18BE0EFA19588F2F00B4E019 /* OTPersonalDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTPersonalDataTableViewCell.xib; sourceTree = "<group>"; };
+		18BE0EFB19588F2F00B4E019 /* OTPersonalDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPersonalDataViewController.h; sourceTree = "<group>"; };
+		18BE0EFC19588F2F00B4E019 /* OTPersonalDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPersonalDataViewController.m; sourceTree = "<group>"; };
+		18BE0EFD19588F2F00B4E019 /* OTPersonalDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTPersonalDataViewController.xib; sourceTree = "<group>"; };
+		18BE0F1B1958903C00B4E019 /* NSDate+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
+		18BE0F1C1958903C00B4E019 /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
+		18BE0F1E195892F900B4E019 /* OTAPersonalDataConfigFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAPersonalDataConfigFactory.h; sourceTree = "<group>"; };
+		18BE0F1F195892F900B4E019 /* OTAPersonalDataConfigFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAPersonalDataConfigFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BE0E3B19588E0E00B4E019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE0E4419588E0E00B4E019 /* CoreGraphics.framework in Frameworks */,
+				18BE0E4619588E0E00B4E019 /* UIKit.framework in Frameworks */,
+				18BE0E4219588E0E00B4E019 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE0E5619588E0E00B4E019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE0E5B19588E0E00B4E019 /* XCTest.framework in Frameworks */,
+				18BE0E5D19588E0E00B4E019 /* UIKit.framework in Frameworks */,
+				18BE0E5C19588E0E00B4E019 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BE0E3519588E0E00B4E019 = {
+			isa = PBXGroup;
+			children = (
+				18BE0E4719588E0E00B4E019 /* OTPersonalData */,
+				18BE0E6019588E0E00B4E019 /* OTPersonalDataTests */,
+				18BE0E4019588E0E00B4E019 /* Frameworks */,
+				18BE0E3F19588E0E00B4E019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BE0E3F19588E0E00B4E019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0E3E19588E0E00B4E019 /* OTPersonalData.app */,
+				18BE0E5919588E0E00B4E019 /* OTPersonalDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BE0E4019588E0E00B4E019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0E4119588E0E00B4E019 /* Foundation.framework */,
+				18BE0E4319588E0E00B4E019 /* CoreGraphics.framework */,
+				18BE0E4519588E0E00B4E019 /* UIKit.framework */,
+				18BE0E5A19588E0E00B4E019 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BE0E4719588E0E00B4E019 /* OTPersonalData */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0F1E195892F900B4E019 /* OTAPersonalDataConfigFactory.h */,
+				18BE0F1F195892F900B4E019 /* OTAPersonalDataConfigFactory.m */,
+				18BE0F1A1958903C00B4E019 /* Extensions */,
+				18BE0EC319588F2F00B4E019 /* PersonalData */,
+				18BE0E5019588E0E00B4E019 /* OTAppDelegate.h */,
+				18BE0E5119588E0E00B4E019 /* OTAppDelegate.m */,
+				18BE0E5319588E0E00B4E019 /* Images.xcassets */,
+				18BE0E4819588E0E00B4E019 /* Supporting Files */,
+			);
+			path = OTPersonalData;
+			sourceTree = "<group>";
+		};
+		18BE0E4819588E0E00B4E019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0E4919588E0E00B4E019 /* OTPersonalData-Info.plist */,
+				18BE0E4A19588E0E00B4E019 /* InfoPlist.strings */,
+				18BE0E4D19588E0E00B4E019 /* main.m */,
+				18BE0E4F19588E0E00B4E019 /* OTPersonalData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BE0E6019588E0E00B4E019 /* OTPersonalDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0E6619588E0E00B4E019 /* OTPersonalDataTests.m */,
+				18BE0E6119588E0E00B4E019 /* Supporting Files */,
+			);
+			path = OTPersonalDataTests;
+			sourceTree = "<group>";
+		};
+		18BE0E6119588E0E00B4E019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0E6219588E0E00B4E019 /* OTPersonalDataTests-Info.plist */,
+				18BE0E6319588E0E00B4E019 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BE0EC319588F2F00B4E019 /* PersonalData */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0EC419588F2F00B4E019 /* cache */,
+				18BE0ECA19588F2F00B4E019 /* config */,
+				18BE0ECF19588F2F00B4E019 /* modifiers */,
+				18BE0EE619588F2F00B4E019 /* validators */,
+				18BE0EF419588F2F00B4E019 /* view */,
+			);
+			path = PersonalData;
+			sourceTree = "<group>";
+		};
+		18BE0EC419588F2F00B4E019 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0EC519588F2F00B4E019 /* OTPersonalSavedDataView.h */,
+				18BE0EC619588F2F00B4E019 /* OTPersonalSavedDataView.m */,
+				18BE0EC719588F2F00B4E019 /* OTPersonalSavedDataViewController.h */,
+				18BE0EC819588F2F00B4E019 /* OTPersonalSavedDataViewController.m */,
+				18BE0EC919588F2F00B4E019 /* OTPersonalSavedDataViewController.xib */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		18BE0ECA19588F2F00B4E019 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0ECB19588F2F00B4E019 /* OTFieldConfig.h */,
+				18BE0ECC19588F2F00B4E019 /* OTFieldConfig.m */,
+				18BE0ECD19588F2F00B4E019 /* OTPersonalDataConfig.h */,
+				18BE0ECE19588F2F00B4E019 /* OTPersonalDataConfig.m */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		18BE0ECF19588F2F00B4E019 /* modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0ED019588F2F00B4E019 /* OTBaseModifier.h */,
+				18BE0ED119588F2F00B4E019 /* OTBaseModifier.m */,
+				18BE0ED219588F2F00B4E019 /* OTCardModifier.h */,
+				18BE0ED319588F2F00B4E019 /* OTCardModifier.m */,
+				18BE0ED619588F2F00B4E019 /* OTLatinFormatter.h */,
+				18BE0ED719588F2F00B4E019 /* OTLatinFormatter.m */,
+				18BE0ED819588F2F00B4E019 /* OTModifierProtocol.h */,
+				18BE0EDB19588F2F00B4E019 /* OTPickerModifier.h */,
+				18BE0EDC19588F2F00B4E019 /* OTPickerModifier.m */,
+				18BE0EDD19588F2F00B4E019 /* OTSwitchModifier.h */,
+				18BE0EDE19588F2F00B4E019 /* OTSwitchModifier.m */,
+				18BE0EDF19588F2F00B4E019 /* OTTelephoneModifier.h */,
+				18BE0EE019588F2F00B4E019 /* OTTelephoneModifier.m */,
+				18BE0EE119588F2F00B4E019 /* OTUpperCaseModifier.h */,
+				18BE0EE219588F2F00B4E019 /* OTUpperCaseModifier.m */,
+			);
+			path = modifiers;
+			sourceTree = "<group>";
+		};
+		18BE0EE619588F2F00B4E019 /* validators */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0EE719588F2F00B4E019 /* OTAdultDateValidator.h */,
+				18BE0EE819588F2F00B4E019 /* OTAdultDateValidator.m */,
+				18BE0EE919588F2F00B4E019 /* OTCVVModifier.h */,
+				18BE0EEA19588F2F00B4E019 /* OTCVVModifier.m */,
+				18BE0EEB19588F2F00B4E019 /* OTDateModifier.h */,
+				18BE0EEC19588F2F00B4E019 /* OTDateModifier.m */,
+				18BE0EED19588F2F00B4E019 /* OTEmailModifier.h */,
+				18BE0EEE19588F2F00B4E019 /* OTEmailModifier.m */,
+				18BE0EEF19588F2F00B4E019 /* OTEmailValidator.h */,
+				18BE0EF019588F2F00B4E019 /* OTEmailValidator.m */,
+				18BE0EF119588F2F00B4E019 /* OTEmptyValidator.h */,
+				18BE0EF219588F2F00B4E019 /* OTEmptyValidator.m */,
+				18BE0EF319588F2F00B4E019 /* OTValidatorProtocol.h */,
+			);
+			path = validators;
+			sourceTree = "<group>";
+		};
+		18BE0EF419588F2F00B4E019 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0EF519588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.h */,
+				18BE0EF619588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.m */,
+				18BE0EF719588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.xib */,
+				18BE0EF819588F2F00B4E019 /* OTPersonalDataTableViewCell.h */,
+				18BE0EF919588F2F00B4E019 /* OTPersonalDataTableViewCell.m */,
+				18BE0EFA19588F2F00B4E019 /* OTPersonalDataTableViewCell.xib */,
+				18BE0EFB19588F2F00B4E019 /* OTPersonalDataViewController.h */,
+				18BE0EFC19588F2F00B4E019 /* OTPersonalDataViewController.m */,
+				18BE0EFD19588F2F00B4E019 /* OTPersonalDataViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18BE0F1A1958903C00B4E019 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18BE0F1B1958903C00B4E019 /* NSDate+convenience.h */,
+				18BE0F1C1958903C00B4E019 /* NSDate+convenience.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BE0E3D19588E0E00B4E019 /* OTPersonalData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BE0E6A19588E0E00B4E019 /* Build configuration list for PBXNativeTarget "OTPersonalData" */;
+			buildPhases = (
+				18BE0E3A19588E0E00B4E019 /* Sources */,
+				18BE0E3B19588E0E00B4E019 /* Frameworks */,
+				18BE0E3C19588E0E00B4E019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPersonalData;
+			productName = OTPersonalData;
+			productReference = 18BE0E3E19588E0E00B4E019 /* OTPersonalData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BE0E5819588E0E00B4E019 /* OTPersonalDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BE0E6D19588E0E00B4E019 /* Build configuration list for PBXNativeTarget "OTPersonalDataTests" */;
+			buildPhases = (
+				18BE0E5519588E0E00B4E019 /* Sources */,
+				18BE0E5619588E0E00B4E019 /* Frameworks */,
+				18BE0E5719588E0E00B4E019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BE0E5F19588E0E00B4E019 /* PBXTargetDependency */,
+			);
+			name = OTPersonalDataTests;
+			productName = OTPersonalDataTests;
+			productReference = 18BE0E5919588E0E00B4E019 /* OTPersonalDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BE0E3619588E0E00B4E019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gruppy;
+				TargetAttributes = {
+					18BE0E5819588E0E00B4E019 = {
+						TestTargetID = 18BE0E3D19588E0E00B4E019;
+					};
+				};
+			};
+			buildConfigurationList = 18BE0E3919588E0E00B4E019 /* Build configuration list for PBXProject "OTPersonalData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18BE0E3519588E0E00B4E019;
+			productRefGroup = 18BE0E3F19588E0E00B4E019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BE0E3D19588E0E00B4E019 /* OTPersonalData */,
+				18BE0E5819588E0E00B4E019 /* OTPersonalDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BE0E3C19588E0E00B4E019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE0F1719588F2F00B4E019 /* OTPersonalDataTableViewCell.xib in Resources */,
+				18BE0F1519588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.xib in Resources */,
+				18BE0F0019588F2F00B4E019 /* OTPersonalSavedDataViewController.xib in Resources */,
+				18BE0E4C19588E0E00B4E019 /* InfoPlist.strings in Resources */,
+				18BE0E5419588E0E00B4E019 /* Images.xcassets in Resources */,
+				18BE0F1919588F2F00B4E019 /* OTPersonalDataViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE0E5719588E0E00B4E019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE0E6519588E0E00B4E019 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BE0E3A19588E0E00B4E019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE0F0B19588F2F00B4E019 /* OTUpperCaseModifier.m in Sources */,
+				18BE0F0E19588F2F00B4E019 /* OTAdultDateValidator.m in Sources */,
+				18BE0F0819588F2F00B4E019 /* OTPickerModifier.m in Sources */,
+				18BE0F0A19588F2F00B4E019 /* OTTelephoneModifier.m in Sources */,
+				18BE0F0F19588F2F00B4E019 /* OTCVVModifier.m in Sources */,
+				18BE0F1119588F2F00B4E019 /* OTEmailModifier.m in Sources */,
+				18BE0E4E19588E0E00B4E019 /* main.m in Sources */,
+				18BE0EFF19588F2F00B4E019 /* OTPersonalSavedDataViewController.m in Sources */,
+				18BE0E5219588E0E00B4E019 /* OTAppDelegate.m in Sources */,
+				18BE0F20195892F900B4E019 /* OTAPersonalDataConfigFactory.m in Sources */,
+				18BE0F1D1958903C00B4E019 /* NSDate+convenience.m in Sources */,
+				18BE0F0319588F2F00B4E019 /* OTBaseModifier.m in Sources */,
+				18BE0F1319588F2F00B4E019 /* OTEmptyValidator.m in Sources */,
+				18BE0F1619588F2F00B4E019 /* OTPersonalDataTableViewCell.m in Sources */,
+				18BE0F1819588F2F00B4E019 /* OTPersonalDataViewController.m in Sources */,
+				18BE0F0619588F2F00B4E019 /* OTLatinFormatter.m in Sources */,
+				18BE0F0119588F2F00B4E019 /* OTFieldConfig.m in Sources */,
+				18BE0F0219588F2F00B4E019 /* OTPersonalDataConfig.m in Sources */,
+				18BE0F0919588F2F00B4E019 /* OTSwitchModifier.m in Sources */,
+				18BE0F1419588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.m in Sources */,
+				18BE0F1019588F2F00B4E019 /* OTDateModifier.m in Sources */,
+				18BE0EFE19588F2F00B4E019 /* OTPersonalSavedDataView.m in Sources */,
+				18BE0F1219588F2F00B4E019 /* OTEmailValidator.m in Sources */,
+				18BE0F0419588F2F00B4E019 /* OTCardModifier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE0E5519588E0E00B4E019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE0E6719588E0E00B4E019 /* OTPersonalDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BE0E5F19588E0E00B4E019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BE0E3D19588E0E00B4E019 /* OTPersonalData */;
+			targetProxy = 18BE0E5E19588E0E00B4E019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BE0E4A19588E0E00B4E019 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BE0E4B19588E0E00B4E019 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18BE0E6319588E0E00B4E019 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BE0E6419588E0E00B4E019 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BE0E6819588E0E00B4E019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BE0E6919588E0E00B4E019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BE0E6B19588E0E00B4E019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTPersonalData/OTPersonalData-Prefix.pch";
+				INFOPLIST_FILE = "OTPersonalData/OTPersonalData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18BE0E6C19588E0E00B4E019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTPersonalData/OTPersonalData-Prefix.pch";
+				INFOPLIST_FILE = "OTPersonalData/OTPersonalData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18BE0E6E19588E0E00B4E019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OTPersonalData.app/OTPersonalData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTPersonalData/OTPersonalData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OTPersonalDataTests/OTPersonalDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18BE0E6F19588E0E00B4E019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OTPersonalData.app/OTPersonalData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTPersonalData/OTPersonalData-Prefix.pch";
+				INFOPLIST_FILE = "OTPersonalDataTests/OTPersonalDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BE0E3919588E0E00B4E019 /* Build configuration list for PBXProject "OTPersonalData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE0E6819588E0E00B4E019 /* Debug */,
+				18BE0E6919588E0E00B4E019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BE0E6A19588E0E00B4E019 /* Build configuration list for PBXNativeTarget "OTPersonalData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE0E6B19588E0E00B4E019 /* Debug */,
+				18BE0E6C19588E0E00B4E019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18BE0E6D19588E0E00B4E019 /* Build configuration list for PBXNativeTarget "OTPersonalDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE0E6E19588E0E00B4E019 /* Debug */,
+				18BE0E6F19588E0E00B4E019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BE0E3619588E0E00B4E019 /* Project object */;
+}
