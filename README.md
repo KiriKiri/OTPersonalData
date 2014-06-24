@@ -1,6 +1,8 @@
 OTPersonalData
 ==============
 
+![Alt text](http://inprogress.com.ua/Screenshot.png)
+
 Simple instantiate screens with data validation
 
 How to get
