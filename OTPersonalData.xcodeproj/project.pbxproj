@@ -45,6 +45,7 @@
 		18BE0F1919588F2F00B4E019 /* OTPersonalDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BE0EFD19588F2F00B4E019 /* OTPersonalDataViewController.xib */; };
 		18BE0F1D1958903C00B4E019 /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0F1C1958903C00B4E019 /* NSDate+convenience.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		18BE0F20195892F900B4E019 /* OTAPersonalDataConfigFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE0F1F195892F900B4E019 /* OTAPersonalDataConfigFactory.m */; };
+		18F9456C1958992C00409CA1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F9456B1958992C00409CA1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		18BE0F1C1958903C00B4E019 /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
 		18BE0F1E195892F900B4E019 /* OTAPersonalDataConfigFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAPersonalDataConfigFactory.h; sourceTree = "<group>"; };
 		18BE0F1F195892F900B4E019 /* OTAPersonalDataConfigFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAPersonalDataConfigFactory.m; sourceTree = "<group>"; };
+		18F9456B1958992C00409CA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		18BE0E3519588E0E00B4E019 = {
 			isa = PBXGroup;
 			children = (
+				18F9456B1958992C00409CA1 /* README.md */,
 				18BE0E4719588E0E00B4E019 /* OTPersonalData */,
 				18BE0E6019588E0E00B4E019 /* OTPersonalDataTests */,
 				18BE0E4019588E0E00B4E019 /* Frameworks */,
@@ -405,6 +408,7 @@
 				18BE0F1719588F2F00B4E019 /* OTPersonalDataTableViewCell.xib in Resources */,
 				18BE0F1519588F2F00B4E019 /* OTPersonalDataTableFinalFooterView.xib in Resources */,
 				18BE0F0019588F2F00B4E019 /* OTPersonalSavedDataViewController.xib in Resources */,
+				18F9456C1958992C00409CA1 /* README.md in Resources */,
 				18BE0E4C19588E0E00B4E019 /* InfoPlist.strings in Resources */,
 				18BE0E5419588E0E00B4E019 /* Images.xcassets in Resources */,
 				18BE0F1919588F2F00B4E019 /* OTPersonalDataViewController.xib in Resources */,
@@ -648,6 +652,7 @@
 				18BE0E6C19588E0E00B4E019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BE0E6D19588E0E00B4E019 /* Build configuration list for PBXNativeTarget "OTPersonalDataTests" */ = {
 			isa = XCConfigurationList;
@@ -656,6 +661,7 @@
 				18BE0E6F19588E0E00B4E019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

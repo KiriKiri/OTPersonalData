@@ -193,11 +193,15 @@
     }
     
     [self.tableView reloadRowsAtIndexPaths:cellsToReload withRowAnimation:UITableViewRowAnimationAutomatic];
-    [self saveDataToDefaults];
     
-    if (success && self.delegate && [self.delegate respondsToSelector:@selector(performSuccessActionWithConfig:)])
+    
+    if (success)
     {
-        [self.delegate performSuccessActionWithConfig:self.config];
+        [self saveDataToDefaults];
+        
+        if (self.delegate && [self.delegate respondsToSelector:@selector(performSuccessActionWithConfig:)]) {
+            [self.delegate performSuccessActionWithConfig:self.config];
+        }
     }
     
     return success;

@@ -1,4 +1,4 @@
 OTPersonalData
 ==============
 
-Simple instantiate screens with data validation
+Simple instantiate screens with data validation.
